@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -24,6 +29,19 @@
 					}
 				],
 				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,11 +83,11 @@
 			]
 		},
 		"contracts/proposalContract.sol": {
-			"keccak256": "0x7bc152444721c43c2de3c44e818864b10a8a5e6f3db8df029ec9c260270f19c6",
+			"keccak256": "0xea1dc5bf1de282614e3ee65f104c8eee092bee61113f068dbb452e9864eeac40",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4162b983ae995e6fc790cb5609257aacfeb562120de70c425c23174c9d70f9f8",
-				"dweb:/ipfs/QmV5YoHpRU6s3dkjndworWgBBCBiQPnQZ4aytCTChSx4Ai"
+				"bzz-raw://72925b2752ff3fa8c392d53a9a687a088bebacdfd48e5800bfcda11ddb01fa54",
+				"dweb:/ipfs/Qmc7GTnBntoVjfj9kr7y7zUVFwY19H5emRrqVSh7f2v8Cp"
 			]
 		}
 	},
