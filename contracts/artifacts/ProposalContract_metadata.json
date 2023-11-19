@@ -4,7 +4,31 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalVoteToEnd",
+						"type": "uint256"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,12 +56,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/proposalContract.sol": {
-			"keccak256": "0x158f5cfdce102afd9cd9277170c4c13c229305b619101eb871f9fa32f5e3bcb9",
+		"@openzeppelin/contracts/utils/Counters.sol": {
+			"keccak256": "0xf0018c2440fbe238dd3a8732fa8e17a0f9dce84d31451dc8a32f6d62b349c9f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d85e1e878ae4cb0bdb3f428692c728a056a90530bfd3ef0352f0b5390762270",
-				"dweb:/ipfs/QmXtm7xFYzawoCRMS7sHxwMnWUsv2xSULcuFQCPakuQ1uR"
+				"bzz-raw://59e1c62884d55b70f3ae5432b44bb3166ad71ae3acd19c57ab6ddc3c87c325ee",
+				"dweb:/ipfs/QmezuXg5GK5oeA4F91EZhozBFekhq5TD966bHPH18cCqhu"
+			]
+		},
+		"contracts/proposalContract.sol": {
+			"keccak256": "0x7bc152444721c43c2de3c44e818864b10a8a5e6f3db8df029ec9c260270f19c6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4162b983ae995e6fc790cb5609257aacfeb562120de70c425c23174c9d70f9f8",
+				"dweb:/ipfs/QmV5YoHpRU6s3dkjndworWgBBCBiQPnQZ4aytCTChSx4Ai"
 			]
 		}
 	},
