@@ -24,7 +24,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_totalVoteToEnd",
+						"name": "_total_vote_to_end",
 						"type": "uint256"
 					}
 				],
@@ -66,17 +66,17 @@
 							},
 							{
 								"internalType": "uint256",
-								"name": "totalVoteToEnd",
+								"name": "total_vote_to_end",
 								"type": "uint256"
 							},
 							{
 								"internalType": "bool",
-								"name": "currentState",
+								"name": "current_state",
 								"type": "bool"
 							},
 							{
 								"internalType": "bool",
-								"name": "isActive",
+								"name": "is_active",
 								"type": "bool"
 							}
 						],
@@ -127,17 +127,17 @@
 							},
 							{
 								"internalType": "uint256",
-								"name": "totalVoteToEnd",
+								"name": "total_vote_to_end",
 								"type": "uint256"
 							},
 							{
 								"internalType": "bool",
-								"name": "currentState",
+								"name": "current_state",
 								"type": "bool"
 							},
 							{
 								"internalType": "bool",
-								"name": "isActive",
+								"name": "is_active",
 								"type": "bool"
 							}
 						],
@@ -172,7 +172,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "newOwner",
+						"name": "new_owner",
 						"type": "address"
 					}
 				],
@@ -229,20 +229,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"@openzeppelin/contracts/utils/Counters.sol": {
-			"keccak256": "0xf0018c2440fbe238dd3a8732fa8e17a0f9dce84d31451dc8a32f6d62b349c9f1",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://59e1c62884d55b70f3ae5432b44bb3166ad71ae3acd19c57ab6ddc3c87c325ee",
-				"dweb:/ipfs/QmezuXg5GK5oeA4F91EZhozBFekhq5TD966bHPH18cCqhu"
-			]
-		},
 		"contracts/proposalContract.sol": {
-			"keccak256": "0x4f80684b26c6fb262ba41ef03eb9a9a01e060e686d2ce767f0f95379d745e544",
+			"keccak256": "0x5606074893159d4b520e8d20f3bc455ae20b020c35568780126ef8e0cd04ca4d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bbb2889d631dabb88d7e8673420e17ea2e05d195d57093a6dabf10ccc20e7c24",
-				"dweb:/ipfs/QmU2syzbij8X7yGgmfrrimkcwVyyAqUgaENJhaWH1eyxZF"
+				"bzz-raw://19b82a3b91d2d739190ef9a157c0e6e9db69f357bd6cd615684fb3f582832858",
+				"dweb:/ipfs/QmT6nbL61TxVLdYJLiRQPSA3SVA2GvguDQo8KgheAdbSHi"
 			]
 		}
 	},
